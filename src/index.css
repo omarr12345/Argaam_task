@@ -1,5 +1,5 @@
 .widgets-container {
-  padding: 24px 24px;
+  padding: 23px 23px;
   font-family: Tajawal, sans-serif !important;
 }
 
@@ -32,12 +32,11 @@ table {
 }
 
 .position {
-  background-color: #1a516d;
+  background-color: gray;
   position: sticky;
-  position: -webkit-sticky;
-  top: 0px;
+  top: 90px;
   right: 0px;
-  z-index: 100000000;
+  z-index: 10;
   padding: 20px 0px;
   font-size: 25px;
   font-weight: normal;

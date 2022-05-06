@@ -12,10 +12,29 @@ function App() {
     <div className="App" dir="rtl">
       <div className="widgets-container">
         <div className="content">
-          <h2>القوائم الماليه</h2>
+          <h2
+            style={{
+              position: "sticky",
+              top: "0px",
+              height: "50px",
+              zIndex: "1000",
+              backgroundColor: "gray",
+            }}
+          >
+            القوائم الماليه
+          </h2>
 
           <table>
-            <tr className="t-row">
+            <tr
+              className="t-row"
+              style={{
+                position: "sticky",
+                top: "50px",
+                zIndex: "100",
+
+                backgroundColor: "gray",
+              }}
+            >
               <th className="t-h">- التفاصيل</th>
               <th className="t-h">مليون ريال</th>
               <th className="t-h">مليون ريال</th>
@@ -322,6 +341,36 @@ function App() {
 
               <td></td>
               <td></td>
+            </tr>
+            <tr className="t-row">
+              <td className="t-d" style={{ color: "white" }}>
+                الايرادات
+              </td>
+              <td className="t-d"> 125</td>
+              <td className="t-d"> 132</td>
+              <td className="t-d">115</td>
+              <td className="t-d"> 101</td>
+              <td className="t-d">12 </td>
+            </tr>
+            <tr className="t-row">
+              <td className="t-d" style={{ color: "white" }}>
+                الايرادات
+              </td>
+              <td className="t-d"> 125</td>
+              <td className="t-d"> 132</td>
+              <td className="t-d">115</td>
+              <td className="t-d"> 101</td>
+              <td className="t-d">12 </td>
+            </tr>
+            <tr className="t-row">
+              <td className="t-d" style={{ color: "white" }}>
+                الايرادات
+              </td>
+              <td className="t-d"> 125</td>
+              <td className="t-d"> 132</td>
+              <td className="t-d">115</td>
+              <td className="t-d"> 101</td>
+              <td className="t-d">12 </td>
             </tr>
             <tr className="t-row">
               <td className="t-d" style={{ color: "white" }}>
